@@ -1,0 +1,8 @@
+{
+  "install": ["cd example && yarn install --frozen-lockfile --non-interactive"],
+  "verify": [
+    "cd example && yarn install --frozen-lockfile --non-interactive",
+    "cd example && yarn lint",
+    "cd example && yarn test --ci"
+  ]
+}
